@@ -17,7 +17,7 @@ public class CustomerCreateService implements Service {
 	
 	/**
 	 * For informations look at this framework in:
-	 * @see com.giniality.education.webappframework.service.Service#process(com.giniality.education.webappframework.service.ServiceRequest)
+	 * 
 	 */
 	public Object process(ServiceRequest inRequest) {
 		// Get the text from the inputfields in a array and send it to the view
@@ -52,7 +52,7 @@ public class CustomerCreateService implements Service {
 
 	/**
 	 * For informations look at this framework in:
-	 * @see com.giniality.education.webappframework.service.Service#getAliasName()
+	 * 
 	 */
 	public String getAliasName() {
 		return "CreateCustomerService";

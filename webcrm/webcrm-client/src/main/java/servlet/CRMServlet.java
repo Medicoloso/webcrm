@@ -22,7 +22,7 @@ public class CRMServlet extends AbstractServiceBrokerServlet {
 
 	/**
 	 * For informations look at this framework in:
-	 * @see com.giniality.education.webappframework.servlet.AbstractServiceBrokerServlet#initRegistry()
+	 * 
 	 */
 	protected void initRegistry() {
 		// The Register Views of the customer manager website

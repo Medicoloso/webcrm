@@ -39,7 +39,7 @@ public abstract class AbstractHtmlView implements View {
 	 * Returns the predefined header of the HTML page and 
 	 * sets the given page title.
 	 * 
-	 * @param inPageTitle The title of the resulting HTML page.
+	 *
 	 * 
 	 * @return The HTML page header.
 	 */
@@ -81,7 +81,7 @@ public abstract class AbstractHtmlView implements View {
 	protected abstract String createPageContents();
 	
 	/**
-	 * @see com.giniality.education.webappframework.view.View#show()
+	 * 
 	 */
 	public String show() {
 		StringBuffer aPageContentBuffer = new StringBuffer();

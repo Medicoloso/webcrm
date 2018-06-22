@@ -17,7 +17,7 @@ public class CustomerReadService implements Service {
 	
 	/**
 	 * For informations look at this framework in:
-	 * @see com.giniality.education.webappframework.service.Service#process(com.giniality.education.webappframework.service.ServiceRequest)
+	 * 
 	 */
 	public Object process(ServiceRequest inRequest) {
 		
@@ -40,7 +40,7 @@ public class CustomerReadService implements Service {
 
 	/**
 	 * For informations look at this framework in:
-	 * @see com.giniality.education.webappframework.service.Service#getAliasName()
+	 * 
 	 */
 	public String getAliasName() {
 		return "ReadCustomerService";
